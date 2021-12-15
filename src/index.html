@@ -11,69 +11,71 @@
 
 <body>
   <header>
-    <nav class="main-navigation">
-      <a href="#">Главная</a>
+    <nav class="navigation-pets__item">
+      <a href="#" class="navigation-pets__item-active">Главная</a>
       <a href="#">Питомник</a>
-      <a href="#">Контакты</a>
+      <a href="#"> Контакты</a>
     </nav>
 
-    <div class="header__content">
+    <div class="header-content">
       <p><span>Новосибирск</span></p>
-      <h1 class="header__title">Питомник Мейн-Кунов</h1>
-      <p class="header__lead">
+      <h1 class="header-content__title">Питомник Мейн-Кунов</h1>
+      <p class="header-content__lead">
         <b>Первый питомник срасширенным спектром услуг</b>
       </p>
-      <a href="#" class="header__btn">Смотреть котиков</a>
+      <a href="#" class="header-content__btn">Смотреть котиков</a>
     </div>
-    <div>
+    <div class="social-buttons">
       <p><a href="#">Vk</a>
         <a href="#">Twitter</a>
         <a href="#">Facebook</a>
       </p>
     </div>
   </header>
-  <section>
-    <h2 class="pets">Питомцы</h2>
-    <p class="pets-documents">Все представители нашего питомника имеют ветеринарный паспорт с отметками о прививках и
+  <section class="our-cats">
+    <h2 class="our-cats__pets">Питомцы</h2>
+    <p class="our-cats__pets-documents">Все представители нашего питомника имеют ветеринарный паспорт с отметками о
+      прививках и
       документ с родословной</p>
-    <nav>
-      <a href="#">Коты</a>
+    <nav class="navigation-pets__btn">
+      <a href="#" class="navigation-pets__btn-active">Коты</a>
       <a href="#">Кошки</a>
       <a href="#">Котята</a>
     </nav>
-    <div>
-      <p><img class="white-cat" src="#" width="519" height="214" alt="Белая кошка">
-        <img class="Brown-cat" src="#" width="535" height="241" alt="Коричневая кошка">
-        <img class="Gray-cat" src="#" width="530" height="530" alt="Серая кошка">
+    <div class="photo-cats">
+      <p><img class="photo-cats__white-cat" src="#" width="519" height="214" alt="Белая кошка">
+        <img class="photo-cats__brown-cat" src="#" width="535" height="241" alt="Коричневая кошка">
+        <img class="photo-cats__gray-cat" src="#" width="530" height="530" alt="Серая кошка">
       </p>
-      <p><a class="button-watch more" href="#">Смотреть больше</a></p>
+      <p><a class="photo-cats__watch-more" href="#">Смотреть больше</a></p>
     </div>
   </section>
-  <section>
-    <h2 class="features of the breed">Особенности породы</h2>
-    <p class="description of the breed">Мейн-Кун - это порода, которая вызывает к себе уважение. Приобретая в свой дом
+  <section class="breed-features">
+    <h2 class="breed-features__title">Особенности породы</h2>
+    <p class="breed-features__characteristic">Мейн-Кун - это порода, которая вызывает к себе уважение. Приобретая в свой
+      дом
       этого питомца, вы получите умное животное, которому нет равных </p>
-    <ul class="description cat">
+    <ul class="breed-features__list">
       <li>Легко уживается в семьях с детьми или другими животными</li>
       <li>Внешний вид этой кошки похож на дикую рысь</li>
       <li>Выполняет команды как дрессированная собака</li>
       <li>Вес может достигать 12 кг, а длина 1 м</li>
     </ul>
-    <img class="description-picture" src="#" width="623" height="908" alt="#">
+    <img class="breed-features__picture" src="#" width="623" height="908" alt="#">
 
   </section>
-  <section>
-    <h3 class="why us">Почему именно мы?</h3>
-    <p class="discription us">приеобретая животное в нашем питомнике вы получите</p>
-    <ul class="services">
-      <li class="one-services">Бесплатное ветеринарное обслуживание 5 лет</li>
-      <li class="two-services">Консультирование по любому вопросу 24 часа в сутки</li>
-      <li class="three-services">Индивидуальный подбор питания для вашего кота</li>
+  <section class="why-us">
+    <h3 class="why-us__title">Почему именно мы?</h3>
+    <p class="why-us__discription-us">приеобретая животное в нашем питомнике вы получите</p>
+    <ul class="why-us__services">
+      <li>Бесплатное ветеринарное обслуживание 5 лет</li>
+      <li>Консультирование по любому вопросу 24 часа в сутки</li>
+      <li>Индивидуальный подбор питания для вашего кота</li>
     </ul>
   </section>
-  <section>
-    <h2 class="cats care">Об уходе за Мейн-Куном</h2>
-    <ul>
+  <section class="breed-care">
+    <h2 class="breed-care__title">Об уходе за Мейн-Куном</h2>
+    <ul class="breed-care__care-rules">
       <li>
         <a href="#">
           <h3>Шерсть</h3>
@@ -89,7 +91,8 @@
       <li>
         <a href="#">
           <h3>Уши и глаза</h3>
-          <p>Владельцам котов необходимо регулярно осматривать ушки и глаза своих питомцев, ведь это может быть признаками
+          <p>Владельцам котов необходимо регулярно осматривать ушки и глаза своих питомцев, ведь это может быть
+            признаками
             заболевания</p>
         </a>
       </li>
@@ -102,24 +105,25 @@
       </li>
     </ul>
   </section>
-  <section>
-    <h2 class="our-team">Наша команда</h2>
-    <p class="discription-team">Все сотрудники нашего питомника дипломированые специалисты в области фелинологии и
+  <section class="our-team">
+    <h2 class="our-team__title">Наша команда</h2>
+    <p class="our-team__discription">Все сотрудники нашего питомника дипломированые специалисты в области фелинологии и
       ветеринарии</p>
-    <p><b>Серёжа Попов</b></p>
-    <p><span>Основатель питомника</span></p>
-    <p>Наш питомник занимается разведением Мейн-Кунов на протяжениие 15 лет. Мы в ответе за каждого приобретенного
+    <p class="our-team__subtitle"><b>Серёжа Попов</b></p>
+    <p class="our-team__founder"><span>Основатель питомника</span></p>
+    <p class="our-team__description">Наш питомник занимается разведением Мейн-Кунов на протяжениие 15 лет. Мы в ответе
+      за каждого приобретенного
       вами питомца</p>
-    <img class="photo-Popova" src="#" alt="Попов">
-    <p><a href="#">Facebook</a>
+    <img class="our-team__photo-popova" src="#" alt="Попов">
+    <p class="our-team__social-btn"><a href="#">Facebook</a>
       <a href="#">Twitter</a>
       <a href="#">VK</a>
     </p>
   </section>
-  <section>
-    <h3 class="question-answer">Вопрос-Ответ</h3>
-    <p class="our-help">Мы ответим на самые популярные ваши вопросы</p>
-    <button class="button-question-1">
+  <section class="question-answer">
+    <h2 class="question-answer__title">Вопрос-Ответ</h2>
+    <p class="question-answer__our-help">Мы ответим на самые популярные ваши вопросы</p>
+    <button class="question-answer__question-1">
       <h5>С какого возраста можно забирать котенка из питомника?</h5>
       <p>Есть важная причина, почему котенка стоит забирать домой только после трех месяцев, — это вакцинация. Первые
         прививки животному делают в возрасте 8 недель. Ревакцинация проводится через 3–4 недели. То есть котенок,
@@ -127,46 +131,47 @@
       <p>Так что, чтобы в дома появился психически и физически здоровый котенок, игривый, жизнерадостный,
         самостоятельный и воспитанный, не спешите забирать его от кошки-мамы раньше трех месяцев.</p>
     </button>
-    <button class="button-question-2">
+    <button class="question-answer__question-2">
       <h5>Как зарезервировать котенка?</h5>
     </button>
-    <button class="button-question-3">
+    <button class="question-answer__question-3">
       <h5>Можно ли купить кота, если я живу в другом городе?</h5>
     </button>
-    <button class="button-question-3">
+    <button class="question-answer__question-4">
       <h5>Как подготовить дом к приему нового питомца?</h5>
     </button>
   </section>
   <div class="main-quetion">
-    <a class="quetion" href="#">Задать вопрос</a>
+    <a class="main-quetion__ask-question" href="#">Задать вопрос</a>
   </div>
-  <section>
-    <h3 class="reviews">Отзывы</h3>
-    <p><b>Серёжа Попов</b></p>
-    <p class="description of employees">Я выражаю огромную благодарность вашему питомнику. Мой Феликс невероятно умен
+  <section class="reviews">
+    <h2 class="reviews__title">Отзывы</h2>
+    <p class="reviews__name"><b>Серёжа Попов</b></p>
+    <p class="reviews__gratitude">Я выражаю огромную благодарность вашему питомнику. Мой Феликс невероятно умен
       и воспитан. Огромным плюсом питомника является возможность консультироваться в любое время</p>
-    <img class="photo-Popova" src="#" alt="Попов">
-    <p><data>24 мая 2018</data></p>
-    <a href="#">Twitter</a>
-    <a href="#">VK</a>
+    <img class="reviews__photo-popova" src="#" alt="Попов">
+    <p><time datetime="2018-05-24" class="reviews__data">24 мая 2018</time></p>
+    <a href="#" class="reviews__social-btn">Twitter</a>
+    <a href="#" class="reviews__social-btn">VK</a>
   </section>
-  <footer class="footer">
-    <a><img src="logo.#" alt="Главная страница"></a>
-    <p><a href="#">Facebook</a>
+  <footer class="basement">
+    <a class="basement__logo"><img src="logo.#" alt="Главная страница"></a>
+    <p class="basement__social-btn"><a href="#">Facebook</a>
       <a href="#">Twitter</a>
       <a href="#">VK</a>
     </p>
-    <a href="#">Новосибирск, Пушкинский проспект, 19</a>
-    <p><a href="tel:+7 (383) 900-64-65">+7 (383) 900-64-65</a></p>
+    <a href="#" class="basement__address">Новосибирск, Пушкинский проспект, 19</a>
+    <p class="basement__telephone"><a href="tel:+73839006465">+7 (383) 900-64-65</a></p>
   </footer>
   <section class="modal-map">
-    <h3 class="ordering a call">Заказать звонок</h3>
-    <p class="working hours">Отвечаем и звоним каждый день, с 10:00 до 24:00</p>
-    <p class="contacting the user"><b>Как к вам обращаться?</b></p>
-    <p class="phone number"><b>Номер телефона</b></p>
-    <p class="Request a call">Нажимая на кнопку"Заказать звонок", я даю <a href="#">согласие на обработку персональных
+    <h3 class="modal-map__ordering-call">Заказать звонок</h3>
+    <p class="modal-map__working-hours">Отвечаем и звоним каждый день, с 10:00 до 24:00</p>
+    <p class="modal-map__how-handle"><b>Как к вам обращаться?</b></p>
+    <p class="modal-map__phone-number"><b>Номер телефона</b></p>
+    <p class="modal-map__Request-call">Нажимая на кнопку"Заказать звонок", я даю <a href="#">согласие на обработку
+        персональных
         данных</a></p>
-    <button>Заказать звонок</button>
+    <button class="modal-map__Request-call-btn">Заказать звонок</button>
   </section>
 
 
