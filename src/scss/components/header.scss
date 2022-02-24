@@ -1,4 +1,18 @@
 .header {
-  background-color: #f0105b;
-  color: white;
+  background-color: #1F1C1D;
+  height: 683px;
+  width: 75%;
+  margin: auto;
+  position: relative;
+}
+
+.header-photo {
+  display: inline-block;
+  position: absolute;
+  max-width: 1068px;
+  max-height: 683px;
+  right: 0px;
+  top: 0px;
+
+
 }

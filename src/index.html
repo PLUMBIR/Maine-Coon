@@ -11,37 +11,42 @@
 
 <body>
   <header class="header">
-    <nav class="navigation-pets__item">
-      <a href="#" class="navigation-pets__item-active">Главная</a>
-      <a href="#">Питомник</a>
-      <a href="#"> Контакты</a>
+
+    <img src="img/logocat.png" alt="#" class="header-photo">
+
+    <nav class="navigation-header__menu">
+      <a href="#" class="navigation-pets__item--active">Главная</a>
+      <a href="#" class="navigation-pets__item">Питомник</a>
+      <a href="#" class="navigation-pets__item"> Контакты</a>
+      <a href="#"><img src="img/crown.png" alt="Главная" class="header-logo"></a>
     </nav>
 
     <div class="header-content">
-      <p><span>Новосибирск</span></p>
-      <h1 class="header-content__title">Питомник Мейн-Кунов</h1>
+      <p class="header-content__town">Новосибирск</p>
+      <h1 class="header-content__title">Питомник <br> Мейн-Кунов</h1>
       <p class="header-content__lead">
-        <b>Первый питомник срасширенным спектром услуг</b>
+        <b>Первый питомник с расширенным <br> спектром услуг</b>
       </p>
-      <a href="#" class="header-content__btn">Смотреть котиков</a>
+      <div class="header-content__btn">
+        <a href="#">Смотреть котиков</a>
+      </div>
     </div>
-    <div class="social-buttons">
-      <p><a href="#">Vk</a>
-        <a href="#">Twitter</a>
-        <a href="#">Facebook</a>
-      </p>
-    </div>
+    <ul class="social-buttons">
+      <li><a href="#"><img src="img/VK.png" alt="VK"></a></li>
+      <li><a href="#"><img src="img/Twitter.png" alt="Twitter"></a></li>
+      <li><a href="#"><img src="img/Facebook.png" alt="Facebook"></a></li>
+    </ul>
   </header>
   <section class="our-cats">
     <h2 class="our-cats__pets">Питомцы</h2>
     <p class="our-cats__pets-documents">Все представители нашего питомника имеют ветеринарный паспорт с отметками о
       прививках и
       документ с родословной</p>
-    <nav class="navigation-pets__btn">
-      <button class="navigation-pets__btn-active">Коты</button>
-      <button>Кошки</button>
-      <button>Котята</button>
-    </nav>
+    <div class="navigation-pets">
+      <button class="navigation-pets__btn navigation-pets__btn--active">Коты</button>
+      <button class="navigation-pets__btn">Кошки</button>
+      <button class="navigation-pets__btn">Котята</button>
+    </div>
     <div class="photo-cats">
       <p><img class="photo-cats__white-cat" src="#" width="519" height="214" alt="Белая кошка">
         <img class="photo-cats__brown-cat" src="#" width="535" height="241" alt="Коричневая кошка">
